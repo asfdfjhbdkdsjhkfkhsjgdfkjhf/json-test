@@ -164,7 +164,7 @@ if (message.content.startsWith(prefix + 'نقاطي')) {
   fs.writeFile("./json/awsmm.json", JSON.stringify(points), (err) => {
     if (err) console.error(err)
   })
-});*/
+});
 
 
 
